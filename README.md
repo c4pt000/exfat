@@ -1,6 +1,7 @@
 
 yum install fuse-devel fuse exfat* -y
 
+git clone https://github.com/c4pt000/exfat
 
 ```
 yum install fuse-devel -y
