@@ -1,8 +1,15 @@
+for packages deb / rpm
 
+https://github.com/c4pt000/exfat/releases/tag/PKGS-v1.3.0
+
+
+for source build
+
+```
 yum install fuse-devel fuse exfat* -y
 
 git clone https://github.com/c4pt000/exfat
-
+```
 ```
 yum install fuse-devel -y
 autoreconf -iv
