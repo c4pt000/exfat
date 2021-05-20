@@ -1,3 +1,16 @@
+
+yum install fuse-devel fuse exfat* -y
+
+
+```
+yum install fuse-devel -y
+autoreconf -iv
+./configure --prefix=/usr
+make -j24
+make install
+modprobe fuse
+```
+
 About
 -----
 
